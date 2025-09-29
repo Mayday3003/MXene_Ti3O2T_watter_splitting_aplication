@@ -1,0 +1,24 @@
+format: jb-book
+root: index
+chapters:
+  - file: introduction/overview
+    title: "Introducción"
+  - part: "Teoría"
+    chapters:
+      - file: theory/crystal_structure
+      - file: theory/symmetry_and_spglib
+  - part: "Métodos"
+    chapters:
+      - file: methods/ase_workflow
+      - file: methods/pymatgen_workflow
+      - file: methods/wulffpack_workflow
+      - file: methods/pyxtal_workflow
+  - part: "Tutoriales"
+    chapters:
+      - file: tutorials/tutorial_01_generate_crystals
+      - file: tutorials/tutorial_02_surface_wulff
+      - file: tutorials/tutorial_03_structure_prediction_pyxtal
+  - part: "Ejemplos y referencia"
+    chapters:
+      - file: examples/case_study_nanoparticle
+      - file: reference/api

@@ -1,0 +1,24 @@
+name: matbook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - mamba
+  - jupyterlab
+  - notebook
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - ase
+  - pymatgen
+  - spglib
+  - wulffpack
+  - pyxtal
+  - nodejs
+  - pip
+  - pip:
+      - jupyter-book
+      - sphinx-book-theme
+      - jupytext
+      - nbconvert

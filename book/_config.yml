@@ -1,0 +1,17 @@
+# configuración mínima
+project:
+  name: "Jupyter Book - Ciencia de Materiales"
+  repository: https://github.com/TU_USUARIO/TU_REPO
+
+execute:
+  execute_notebooks: "off"
+  timeout: 600
+
+sphinx:
+  config:
+    html_theme: sphinx_book_theme
+
+launch_buttons:
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://colab.research.google.com"
+  notebook_interface: "jupyterlab"

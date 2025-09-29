@@ -1,0 +1,27 @@
+name: Build and deploy Jupyter Book
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mamba
+          mamba env create -n matbook -f environment.yml || mamba install -n base -c conda-forge jupyter-book
+      - name: Build book
+        run: |
+          pip install jupyter-book
+          jupyter-book build book/
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book/_build/html
