@@ -1,24 +1,41 @@
 format: jb-book
 root: index
 chapters:
-  - file: introduction/overview
-    title: "Introducción"
-  - part: "Teoría"
+  - part: Introduction
     chapters:
-      - file: theory/crystal_structure
-      - file: theory/symmetry_and_spglib
-  - part: "Métodos"
+      - file: Introducción/MXenes_Jupyter_Notebook
+        title: "MXenes Jupyter Notebook"
+  - part: Preliminary Research
     chapters:
-      - file: methods/ase_workflow
-      - file: methods/pymatgen_workflow
-      - file: methods/wulffpack_workflow
-      - file: methods/pyxtal_workflow
-  - part: "Tutoriales"
+      - file: Investigación preliminar/Punto3
+        title: "Point 3"
+      - part: Data Search
+        chapters:
+          - file: Investigación preliminar/busqueda/mxenes_bandgap_catalysis
+            title: "Bandgap Catalysis CSV"
+          - file: Investigación preliminar/busqueda/mxenes_catalysis
+            title: "Catalysis CSV"
+          - file: Investigación preliminar/busqueda/mxenes_water_s
+            title: "Water S CSV"
+          - file: Investigación preliminar/busqueda/mxenes_xrd_bandgap
+            title: "XRD Bandgap CSV"
+          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis_bandgap
+            title: "XRD Catalysis Bandgap CSV"
+          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis
+            title: "XRD Catalysis CSV"
+          - file: Investigación preliminar/busqueda/mxenes_xrd
+            title: "XRD CSV"
+          - file: Investigación preliminar/busqueda/mxenes
+            title: "MXenes CSV"
+  - part: Data Mining
     chapters:
-      - file: tutorials/tutorial_01_generate_crystals
-      - file: tutorials/tutorial_02_surface_wulff
-      - file: tutorials/tutorial_03_structure_prediction_pyxtal
-  - part: "Ejemplos y referencia"
+      - file: Minería de datos/data_mining
+        title: "Data Mining Notebook"
+  - part: Surface and Nanoparticle
     chapters:
-      - file: examples/case_study_nanoparticle
-      - file: reference/api
+      - file: Superfice y Nanopartícula /nanomaterials_complete_copy
+        title: "Nanomaterials Complete"
+  - part: Surface
+    chapters:
+      - file: surface/wulffpack_nanoparticle_example
+        title: "Wulffpack Nanoparticle Example"
