@@ -1,5 +1,6 @@
 # Jupyter Book build files
 _build/
+book/_build/
 *.pyc
 __pycache__/
 .ipynb_checkpoints/
