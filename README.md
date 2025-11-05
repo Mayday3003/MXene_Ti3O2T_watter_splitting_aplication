@@ -16,10 +16,10 @@ conda activate matbook
 jupyter-book build book/
 ```
 
+## Ver el Libro Online
+
+El libro está desplegado automáticamente en GitHub Pages: [Ver Jupyter Book](https://mayday3003.github.io/MXene_Ti3O2T_watter_splitting_aplication/)
+
 ## Abrir en Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TU_USUARIO/TU_REPO/HEAD?urlpath=lab/tree/book/)
-
-## Abrir en Colab
-
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU_USUARIO/TU_REPO/blob/main/book/tutorials/tutorial_01_generate_crystals.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Mayday3003/MXene_Ti3O2T_watter_splitting_aplication/HEAD?urlpath=lab/tree/book/)

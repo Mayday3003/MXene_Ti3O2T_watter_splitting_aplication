@@ -9,24 +9,6 @@ chapters:
     chapters:
       - file: Investigación preliminar/Punto3
         title: "Punto 3"
-      - part: Búsqueda de Datos
-        chapters:
-          - file: Investigación preliminar/busqueda/mxenes_bandgap_catalysis
-            title: "Bandgap Catalysis CSV"
-          - file: Investigación preliminar/busqueda/mxenes_catalysis
-            title: "Catalysis CSV"
-          - file: Investigación preliminar/busqueda/mxenes_water_s
-            title: "Water S CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd_bandgap
-            title: "XRD Bandgap CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis_bandgap
-            title: "XRD Catalysis Bandgap CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis
-            title: "XRD Catalysis CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd
-            title: "XRD CSV"
-          - file: Investigación preliminar/busqueda/mxenes
-            title: "MXenes CSV"
   - part: Minería de Datos
     chapters:
       - file: Minería de datos/data_mining
