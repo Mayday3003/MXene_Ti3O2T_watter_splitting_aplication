@@ -1,4 +1,7 @@
-jupyter-book
+jupyter-book>=0.15.0
 sphinx-book-theme
 jupytext
 nbconvert
+myst-nb
+sphinx-copybutton
+sphinx-togglebutton
