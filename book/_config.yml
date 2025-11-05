@@ -1,15 +1,26 @@
-# configuración mínima
-project:
-  name: "Jupyter Book - Ciencia de Materiales"
-  repository: https://github.com/TU_USUARIO/TU_REPO
+# Jupyter Book Configuration
+title: "MXenes Ti3O2T para Separación de Agua"
+author: "Mayday3003"
+logo: ""
+
+repository:
+  url: https://github.com/Mayday3003/MXene_Ti3O2T_watter_splitting_aplication
+  branch: main
 
 execute:
-  execute_notebooks: "off"
+  execute_notebooks: off
   timeout: 600
+  allow_errors: false
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: false
 
 sphinx:
   config:
     html_theme: sphinx_book_theme
+    language: es
 
 launch_buttons:
   binderhub_url: "https://mybinder.org"

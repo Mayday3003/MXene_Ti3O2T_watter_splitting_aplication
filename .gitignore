@@ -1,0 +1,22 @@
+# Jupyter Book build files
+_build/
+book/_build/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
