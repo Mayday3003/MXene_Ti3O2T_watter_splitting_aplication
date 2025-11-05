@@ -3,37 +3,37 @@ root: index
 chapters:
   - part: Introduction
     chapters:
-      - file: Introducción/MXenes_Jupyter_Notebook
+      - file: introduction/mxenes_jupyter_notebook
         title: "MXenes Jupyter Notebook"
   - part: Preliminary Research
     chapters:
-      - file: Investigación preliminar/Punto3
+      - file: preliminary_research/point3
         title: "Point 3"
       - part: Data Search
         chapters:
-          - file: Investigación preliminar/busqueda/mxenes_bandgap_catalysis
+          - file: preliminary_research/search/mxenes_bandgap_catalysis
             title: "Bandgap Catalysis CSV"
-          - file: Investigación preliminar/busqueda/mxenes_catalysis
+          - file: preliminary_research/search/mxenes_catalysis
             title: "Catalysis CSV"
-          - file: Investigación preliminar/busqueda/mxenes_water_s
+          - file: preliminary_research/search/mxenes_water_s
             title: "Water S CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd_bandgap
+          - file: preliminary_research/search/mxenes_xrd_bandgap
             title: "XRD Bandgap CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis_bandgap
+          - file: preliminary_research/search/mxenes_xrd_catalysis_bandgap
             title: "XRD Catalysis Bandgap CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis
+          - file: preliminary_research/search/mxenes_xrd_catalysis
             title: "XRD Catalysis CSV"
-          - file: Investigación preliminar/busqueda/mxenes_xrd
+          - file: preliminary_research/search/mxenes_xrd
             title: "XRD CSV"
-          - file: Investigación preliminar/busqueda/mxenes
+          - file: preliminary_research/search/mxenes
             title: "MXenes CSV"
   - part: Data Mining
     chapters:
-      - file: Minería de datos/data_mining
+      - file: data_mining/data_mining
         title: "Data Mining Notebook"
   - part: Surface and Nanoparticle
     chapters:
-      - file: Superfice y Nanopartícula /nanomaterials_complete_copy
+      - file: surface_nanoparticle/nanomaterials_complete_copy
         title: "Nanomaterials Complete"
   - part: Surface
     chapters:
