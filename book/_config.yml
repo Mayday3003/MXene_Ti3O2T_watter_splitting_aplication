@@ -1,7 +1,7 @@
 # configuración mínima
 project:
-  name: "Jupyter Book - Ciencia de Materiales"
-  repository: https://github.com/TU_USUARIO/TU_REPO
+  name: "MXenes Ti3O2T para Separación de Agua"
+  repository: https://github.com/Mayday3003/MXene_Ti3O2T_watter_splitting_aplication
 
 execute:
   execute_notebooks: "off"

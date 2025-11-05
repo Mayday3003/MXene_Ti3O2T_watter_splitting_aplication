@@ -1,41 +1,41 @@
 format: jb-book
 root: index
 chapters:
-  - part: Introduction
+  - part: Introducción
     chapters:
-      - file: introduction/mxenes_jupyter_notebook
+      - file: Introducción/MXenes_Jupyter_Notebook
         title: "MXenes Jupyter Notebook"
-  - part: Preliminary Research
+  - part: Investigación Preliminar
     chapters:
-      - file: preliminary_research/point3
-        title: "Point 3"
-      - part: Data Search
+      - file: Investigación preliminar/Punto3
+        title: "Punto 3"
+      - part: Búsqueda de Datos
         chapters:
-          - file: preliminary_research/search/mxenes_bandgap_catalysis
+          - file: Investigación preliminar/busqueda/mxenes_bandgap_catalysis
             title: "Bandgap Catalysis CSV"
-          - file: preliminary_research/search/mxenes_catalysis
+          - file: Investigación preliminar/busqueda/mxenes_catalysis
             title: "Catalysis CSV"
-          - file: preliminary_research/search/mxenes_water_s
+          - file: Investigación preliminar/busqueda/mxenes_water_s
             title: "Water S CSV"
-          - file: preliminary_research/search/mxenes_xrd_bandgap
+          - file: Investigación preliminar/busqueda/mxenes_xrd_bandgap
             title: "XRD Bandgap CSV"
-          - file: preliminary_research/search/mxenes_xrd_catalysis_bandgap
+          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis_bandgap
             title: "XRD Catalysis Bandgap CSV"
-          - file: preliminary_research/search/mxenes_xrd_catalysis
+          - file: Investigación preliminar/busqueda/mxenes_xrd_catalysis
             title: "XRD Catalysis CSV"
-          - file: preliminary_research/search/mxenes_xrd
+          - file: Investigación preliminar/busqueda/mxenes_xrd
             title: "XRD CSV"
-          - file: preliminary_research/search/mxenes
+          - file: Investigación preliminar/busqueda/mxenes
             title: "MXenes CSV"
-  - part: Data Mining
+  - part: Minería de Datos
     chapters:
-      - file: data_mining/data_mining
+      - file: Minería de datos/data_mining
         title: "Data Mining Notebook"
-  - part: Surface and Nanoparticle
+  - part: Superficie y Nanopartícula
     chapters:
-      - file: surface_nanoparticle/nanomaterials_complete_copy
-        title: "Nanomaterials Complete"
-  - part: Surface
+      - file: Superficie y Nanopartícula/nanomaterials_complete_copy
+        title: "Nanomateriales Completo"
+  - part: Superficie
     chapters:
       - file: surface/wulffpack_nanoparticle_example
-        title: "Wulffpack Nanoparticle Example"
+        title: "Ejemplo de Nanopartícula con Wulffpack"
