@@ -29,6 +29,10 @@ jobs:
         run: |
           jupyter-book build book/
           
+      - name: Add .nojekyll file
+        run: |
+          touch book/_build/html/.nojekyll
+          
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
