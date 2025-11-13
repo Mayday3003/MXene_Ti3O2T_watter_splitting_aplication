@@ -1,23 +1,23 @@
 format: jb-book
 root: index
-parts:
-  - caption: Introducción
+chapters:
+  - part: Introducción
     chapters:
       - file: Introducción/MXenes_Jupyter_Notebook
         title: "MXenes Jupyter Notebook"
-  - caption: Investigación Preliminar
+  - part: Investigación Preliminar
     chapters:
       - file: Investigación preliminar/Punto3
         title: "Punto 3"
-  - caption: Minería de Datos
+  - part: Minería de Datos
     chapters:
       - file: Minería de datos/data_mining
         title: "Data Mining Notebook"
-  - caption: Superficie y Nanopartícula
+  - part: Superficie y Nanopartícula
     chapters:
       - file: Superficie y Nanopartícula/nanomaterials_complete_copy
         title: "Nanomateriales Completo"
-  - caption: Superficie
+  - part: Superficie
     chapters:
       - file: surface/wulffpack_nanoparticle_example
         title: "Ejemplo de Nanopartícula con Wulffpack"
