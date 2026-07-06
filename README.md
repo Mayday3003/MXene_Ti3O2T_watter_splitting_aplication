@@ -1,37 +1,65 @@
-# Jupyter Book - Ciencia de Materiales
+# MXene Ti3O2T Water Splitting Research
 
-Este repositorio contiene un libro interactivo para ciencia de materiales usando ASE, pymatgen, wulffpack y pyxtal.
+This repository collects exploratory notebooks, data mining workflows, and materials-analysis examples focused on MXene Ti3O2T systems for water splitting research.
 
-## Estructura principal
+## Project Overview
 
-- Carpeta `book/`: contiene el Jupyter Book y sus recursos.
-- Carpeta `src/matbook/`: código fuente reutilizable.
-- Archivos de entorno y despliegue: `environment.yml`, `requirements.txt`, `postBuild`, `Dockerfile`, `.github/workflows/`, etc.
+The workspace is organized as a set of themed folders so each stage of the research process is easy to find:
 
-## Cómo construir el libro
+- `introduction/`: foundational MXene notes and overview material.
+- `preliminary-research/`: literature-oriented search and early screening notebooks, plus extracted search results.
+- `data-mining/`: data extraction, filtering, and analysis workflows.
+- `surface-and-nanoparticles/`: surface and nanoparticle modeling notebooks.
+- `surface/`: Wulff construction and nanoparticle examples.
 
-```bash
-mamba env create -f environment.yml
-conda activate matbook
-jupyter-book build book/
+Key notebooks:
+
+- `introduction/mxene-overview.ipynb`
+- `preliminary-research/literature-screening.ipynb`
+- `data-mining/data-mining.ipynb`
+- `surface-and-nanoparticles/nanomaterials-modeling.ipynb`
+- `surface/wulffpack_nanoparticle_example.ipynb`
+
+## Repository Structure
+
+```text
+.
+├── introduction/
+├── preliminary-research/
+├── data-mining/
+├── surface-and-nanoparticles/
+├── surface/
+├── README.md
+└── index.md
 ```
 
-## Ver el Libro Online
+## How to Use This Repository
 
-El libro está desplegado automáticamente en GitHub Pages: [Ver Jupyter Book](https://mayday3003.github.io/MXene_Ti3O2T_watter_splitting_aplication/)
+1. Open the project in VS Code or JupyterLab.
+2. Start with the notebook that matches your research stage.
+3. Follow the notebook cells to inspect data sources, run analyses, and reproduce figures or calculations.
 
-### Despliegue Automático
+## Recommended Environment
 
-El libro se construye y despliega automáticamente en GitHub Pages cada vez que se hace push a la rama `main`. El proceso incluye:
+The notebooks are intended for a Python scientific stack. A typical setup includes:
 
-1. **GitHub Actions** ejecuta el workflow definido en `.github/workflows/build-book.yml`
-2. Se instalan las dependencias necesarias desde `requirements.txt`
-3. Se construye el Jupyter Book con `jupyter-book build book/`
-4. El HTML generado se despliega en la rama `gh-pages`
-5. GitHub Pages publica el contenido en: https://mayday3003.github.io/MXene_Ti3O2T_watter_splitting_aplication/
+- `jupyter`
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scipy`
+- `pymatgen`
+- `ase`
+- `wulffpack`
+- `matminer`
 
-No se requiere ninguna acción manual para el despliegue.
+If your environment is already configured in the repository, use that configuration first. Otherwise, create a new environment with the packages above before running the notebooks.
 
-## Abrir en Binder
+## Notes
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Mayday3003/MXene_Ti3O2T_watter_splitting_aplication/HEAD?urlpath=lab/tree/book/)
+- Folder names have been normalized to English and lowercase to keep the repository consistent and GitHub-friendly.
+- The notebook and data folder names now follow the same naming convention.
+
+## Contributing
+
+When adding new material, keep notebooks grouped by research stage and use clear, descriptive filenames. Prefer short, consistent titles and keep generated files out of version control unless they are part of the reproducible workflow.
